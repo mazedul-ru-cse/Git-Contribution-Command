@@ -1,0 +1,18 @@
+git checkout "local branch name"
+git add .
+git commit -m "comment"
+git push origin "local branch name"
+
+after pull request merged
+
+git checkout master
+git fetch upstream master
+git merge upstream/master
+git push origin master
+git checkout "local branch name"
+git merge master
+
+
+
+
+
